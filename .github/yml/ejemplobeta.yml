@@ -1,0 +1,9 @@
+name: flujoTrabajo1
+on:[push]
+jobs:
+  prueba1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: mensaje
+        run: echo "primera interaccion con Git Action"
+        
